@@ -1,0 +1,14 @@
+.footer{
+   width: 100%;
+    padding: 2rem 0;
+    background-color: var(--dugme-sec);
+}
+.footur-contener{
+    max-width: 1140px;
+    margin-left: 30%;
+    margin-top: 2%;
+    /* margin: auto; */
+    display: grid;
+    grid-template-columns: repeat(2, 0.3fr);
+    grid-gap: 190px;
+}

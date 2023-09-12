@@ -1,0 +1,191 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Charmonman&family=Montserrat:wght@200;400;500;600&family=Outfit:wght@100;300;400;600&family=Red+Hat+Text:wght@300;400;600;700&display=swap');
+/* font-family: 'Montserrat', sans-serif;
+  font-family: 'Outfit', sans-serif;
+  font-family: 'Red Hat Text', sans-serif; */
+/* .pozadina{
+    position: absolute;
+    top: -350px;
+    right: 0;
+    z-index: -3;
+    min-width: 100%;
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+  } */
+  .mask{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+  .pozadina{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    position: relative;
+    z-index: -3;
+  }
+  .hero{
+    height: 100%;
+    width:100%;
+  }
+  .hero .content{
+    
+    position: absolute;
+    transform: translate(-10%, -60%);
+    top: 45%;
+    left: 45%;
+    /* font-family: 'Montserrat', sans-serif; */
+  }
+  .starla {
+    position: absolute;
+    transform: translate(160px, -70%);
+    /* font-family: 'Charmonman', cursive; */
+    
+
+  }
+  .content h1{
+    /* font-family: 'Red Hat Text', sans-serif; */
+    /* font-size: 3rem; */
+    margin-bottom: 190px;
+    margin-left: 320px;
+    font-weight: 300;
+  }
+  .content h3{
+    /* font-family: 'Red Hat Text', sans-serif; */
+    font-size: 1.5rem;
+    margin-top: 5px;
+    font-weight: 300;
+  }
+  .content h2{
+    margin-top: -55px;
+    /* font-family: 'Red Hat Text', sans-serif; */
+    font-size: 2rem;
+    background-position: center;
+    object-fit: cover;
+    position: relative;
+    transform: translate(-10%, 150%);
+    font-weight: 600;
+    left:20%;
+    
+  }
+.name{
+    margin-bottom: 15px;
+
+  }
+.content .btn{
+    
+    background-position: center;
+    object-fit: cover;
+    position: relative;
+    top: 110px;
+    left: 130px;
+    margin: 2rem 1rem;
+    /* z-index: 30000; */
+    
+  
+     }
+@media (max-width: 1040px ){
+  .hero .content{
+    left: 23%;
+    width: 70%;
+  }
+  .starla {
+    width: 80%;
+    position: absolute;
+    transform: translate(20%, -70%);
+    /* font-family: 'Charmonman', cursive; */            
+  }
+  .content .btn{
+    
+    background-position: center;
+    object-fit: cover;
+    position: relative;
+    top: 100px;
+    left: 25%;
+    margin: 2rem 1rem;
+    /* z-index: 30000; */
+     }
+     .content h2{
+      position: relative;
+      right: -40px;
+      font-weight: 600;
+      background-position: center;
+      font-size: 1.6rem;
+      text-align: center;
+    }
+}
+@media (max-width: 768px ){
+  .pozadina{
+    display: none;
+      }
+      .starla {
+        width: 80%;
+        position: absolute;
+        transform: translate(20%, -70%);
+        /* font-family: 'Charmonman', cursive; */            
+      }
+      .content h1{
+        margin-bottom: 100px;
+        margin-left: 120px;
+        font-weight: 300;
+      }
+      .content h2{
+        position: relative;
+        right: -40px;
+        /* top:-40px; */
+        font-weight: 400;
+        background-position: center;
+        font-size: 1.6rem;
+        text-align: center;
+      }
+      .content .btn{    
+        left: 5%;
+               }
+      
+}
+@media(max-width: 480px){
+  .hero .content{
+    left: 38%;
+    width: 70%;
+  }
+  
+  
+  .content h1{
+    margin-bottom: 120px;
+    margin-left: 10px;
+    font-weight: 300;
+     }
+  .starla {
+    width: 80%;
+    position: absolute;
+    transform: translate(-10%, -70%);
+    /* font-family: 'Charmonman', cursive; */            
+  }
+  .content .btn{
+    
+    background-position: center;
+    object-fit: cover;
+    position: relative;
+    top: 150px;
+    left: -30%;
+    margin: 2rem 1rem;
+    /* z-index: 30000; */
+     }
+     .name{
+      position: relative;
+      margin-bottom: 15px;
+      top:30px;
+      left: -25%;
+    } 
+    .content h2{
+      position: relative;
+      right: 40px;
+      font-weight: 300;
+      background-position: center;
+      font-size: 1.6rem;
+      text-align: center;
+    }
+}
