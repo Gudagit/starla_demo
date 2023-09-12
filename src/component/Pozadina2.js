@@ -15,7 +15,7 @@ function Pozadina2() {
       <div className="container">  
         <div className="card">
             <div className="imgBx">
-              <img src="../slike/icon_02.png"/>
+              <img src="../slike/icon_02.png" alt="slika"/>
             </div>
             <div className="contenet">              
               <h3>LOGO</h3>
@@ -25,7 +25,7 @@ function Pozadina2() {
         </div>  
         <div className="card">
             <div className="imgBx">
-            <img src="../slike/icon_03.png"/>
+            <img src="../slike/icon_03.png"  alt='slika'/>
             </div>
             <div className="contenet">
               <h3>BRAND</h3>
@@ -35,7 +35,7 @@ function Pozadina2() {
         </div>
         <div className="card">
             <div className="imgBx">
-            <img src="../slike/icon_01.png"/>
+            <img src="../slike/icon_01.png" alt="slika"/>
             </div>
             <div className="contenet">
               <h3>WEB</h3>

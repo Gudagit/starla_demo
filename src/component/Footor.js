@@ -15,9 +15,9 @@ function Footor() {
         
             <div className='icon-futer'>
             <img className="logofoot" src="./slike/logo2.png"  alt="logo" />
-                <a href='https://github.com/Gudagit' target='_blank'><BsGithub size={25} style={{color: "#1F1C1C"}} /></a>
+                <a href='https://github.com/Gudagit' ><BsGithub size={25} style={{color: "#1F1C1C"}} /></a>
                 <a href='https://99designs.com/profiles/2993835'><SiAdobeillustrator size={25} style={{color: "#1F1C1C"}} /></a>
-                <a href='https://www.instagram.com/designstarla/?hl=en' target='_blank' ><RiInstagramFill size={25} style={{color: "#1F1C1C"}} /></a>
+                <a href='https://www.instagram.com/designstarla/?hl=en'  ><RiInstagramFill size={25} style={{color: "#1F1C1C"}} /></a>
                 
             </div>
             <div>
