@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 function Pozadina2() {
   return (
     <div className="hiro-pozadina">
-    <img className='pozadina2' src='./slike/pozadina2.png' />
+    <img className='pozadina2' src='./slike/pozadina2.png' alt="slika" />
       <div className="heading">
       {/* <img className="pozadina2" src="./slike/pozadina2.png" /> */}
         <div className="text">

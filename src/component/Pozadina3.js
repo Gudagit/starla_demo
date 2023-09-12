@@ -16,7 +16,7 @@ import './pozadina3.css'
 function Pozadina3() {
   return (
     <div className='s-container'>
-      <img className='pozadina3'  src='./slike/pozadina3.png' />
+      <img className='pozadina3'  src='./slike/pozadina3.png' alt="slika" />
       <div className='textrew'>
         <h1>REVIEW</h1>
         <p>best comments from client</p>

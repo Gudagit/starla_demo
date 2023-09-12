@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route, Routes } from "react-router-dom";
+// import { Route, Routes } from "react-router-dom";
 import Navbar from '../component/Navbar';
 import "./Home.css";
 import SlikezaHome from '../component/SlikezaHome';

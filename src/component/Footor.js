@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Footor.css";
 
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import {BsGithub} from 'react-icons/bs'
 import {SiAdobeillustrator, SiGmail} from 'react-icons/si'
 import {RiInstagramFill} from 'react-icons/ri'
