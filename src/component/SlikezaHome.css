@@ -182,7 +182,7 @@
     } 
     .content h2{
       position: relative;
-      right: 40px;
+      left:-20px;
       font-weight: 300;
       background-position: center;
       font-size: 1.6rem;

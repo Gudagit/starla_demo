@@ -99,7 +99,7 @@
 @media(max-width: 768px){
     .s-container .swiper{
         /* margin-top: 110px; */
-        width: 50%;
+        width: 70%;
         height: 30rem;
         /* position: unset; */
         
@@ -124,13 +124,34 @@
     
     .s-container .swiper{
         /* margin-top: 110px; */
-        width: 80%;
+        width: 70%;
         height: 30rem;
         position: unset;
+        
         
         /* margin-bottom:155px; */
         
     }
+    .name>:nth-child(1){
+        position: absolute;
+        font-size: 1.3rem;
+        font-weight: 600;
+        align-items: center;
+        top: -10%;
+        left:20%;
+        
+    }
+    .name>:nth-child(2){
+        
+        margin-top: 25%;
+        margin-left: 10%;
+        font-size: 0.9rem;
+        font-weight: 300; 
+        /* align-items: center; */
+        
+             
+    }
+    
     .s-container .swiper-button-prev{
         left:1rem;
         top: 29rem;
