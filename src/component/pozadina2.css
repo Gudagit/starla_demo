@@ -166,4 +166,13 @@
     }
     
 }
+@media(max-width: 480px){
+    /* .nav-menu.active li{
+        position: relative;
+        display: block;
+        left:-35px;
+        top:100px;    
+           
+    } */
+}
 
