@@ -25,6 +25,7 @@
     top: -1px;
 }
 .galleryWrap{
+    /* width: 100%; */
     display: flex;
     flex-wrap: wrap;
     gap: 10px;

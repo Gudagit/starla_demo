@@ -13,6 +13,10 @@
     background-position: center;
     background-size: cover;
   } */
+  .hero{
+    width: 100%;
+    height: 100%;
+  }
   .mask{
     width: 100%;
     height: 100vh;
@@ -41,7 +45,7 @@
   }
   .starla {
     position: absolute;
-    transform: translate(160px, -70%);
+    transform: translate(100px, -70%);
     /* font-family: 'Charmonman', cursive; */
     
 
@@ -49,6 +53,8 @@
   .content h1{
     /* font-family: 'Red Hat Text', sans-serif; */
     /* font-size: 3rem; */
+    position: relative;
+    left:-40px;
     margin-bottom: 190px;
     margin-left: 320px;
     font-weight: 300;
@@ -118,6 +124,7 @@
     }
 }
 @media (max-width: 768px ){
+
   .pozadina{
     display: none;
       }
@@ -148,7 +155,7 @@
 }
 @media(max-width: 480px){
   .hero .content{
-    left: 38%;
+    left: 30%;
     width: 70%;
   }
   
@@ -170,8 +177,8 @@
     object-fit: cover;
     position: relative;
     top: 150px;
-    left: -30%;
-    margin: 2rem 1rem;
+    left: -15%;
+    margin: 2rem 0;
     /* z-index: 30000; */
      }
      .name{

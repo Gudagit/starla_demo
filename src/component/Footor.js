@@ -20,7 +20,7 @@ function Footor() {
                 <a href='https://www.instagram.com/designstarla/?hl=en'  ><RiInstagramFill size={25} style={{color: "#1F1C1C"}} /></a>
                 
             </div>
-            <div>
+            <div className='adress'>
             <SiGmail size={25} style={{color: "#1F1C1C"}}/>
             <h4 href="">designerstarla.com</h4>
             <TiLocation size={30} style={{color: "#1F1C1C"}} />
