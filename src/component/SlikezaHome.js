@@ -14,7 +14,7 @@ function SlikezaHome() {
         <h1>My name is</h1>
         {/* <h3 className='name'></h3> */}
         <img className='starla' src={Starla} alt='Starla' />
-        <h3 className='name'> i'm FREELANCER </h3>
+        <h3 className='name'> I'm FREELANCER </h3>
         <h2>Logo Designer and Web Developer</h2>      
             <Link to ="/galeri" className='btn'>PROJECT</Link>
             <Link to="/contac" className='btn'>CONTACT</Link>
