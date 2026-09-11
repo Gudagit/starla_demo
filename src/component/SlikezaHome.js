@@ -12,12 +12,13 @@ function SlikezaHome() {
         </div>
       <div className='content'>
         <h1>My name is</h1>
-        {/* <h3 className='name'></h3> */}
         <img className='starla' src={Starla} alt='Starla' />
         <h3 className='name'> I'm FREELANCER </h3>
-        <h2>Logo Designer and Web Developer</h2>      
+        <h2>Logo Designer and Web Developer</h2>
+        <div className='hero-buttons'>
             <Link to ="/galeri" className='btn'>PROJECT</Link>
             <Link to="/contac" className='btn'>CONTACT</Link>
+        </div>
       </div>
     </div>
   )

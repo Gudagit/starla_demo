@@ -1,7 +1,6 @@
 import React from 'react'
 
 import WSPGallery from '../component/WSPGallery'
-import Navbar from '../component/Navbar'
 
 function Galeri() {
 
@@ -71,8 +70,7 @@ function Galeri() {
 
   return (
     <div>
-    <Navbar />
-      <WSPGallery 
+      <WSPGallery
       galleryImages = {galleryImages}
     />
     </div>

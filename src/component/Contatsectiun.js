@@ -23,12 +23,10 @@ export default function Contatsectiun() {
   };
 
   return (
-    <div className='maska'>   
-          
-          
-        <div className='wrapConct' >
+    <div className='maska'>
         <img className='pozadinaa' src="./slike/cvetsuprotno.jpg" alt="pozadina" />
 
+        <div className='wrapConct' >
             <div className='cont'>
               <h1>CONTACT</h1>
               <p>Get in touch</p>

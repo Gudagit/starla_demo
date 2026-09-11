@@ -4,24 +4,22 @@ import Navbar from '../component/Navbar';
 import "./Home.css";
 import SlikezaHome from '../component/SlikezaHome';
 import Footor from '../component/Footor';
-import Service from '../routes/Service';
-import Blog from '../routes/Blog'
-import Review from './Review';
+import About from './About';
 import Galeri from './Galeri';
+import Project from './Project';
 import Contac from './Contac';
 
 
 function Home() {
   return (
-    <div>    
-    <Navbar />    
+    <div>
+    <Navbar />
     <SlikezaHome />
-    <Service />
-    <Review />
+    <About />
     <Galeri />
-    <Contac /> 
-    <Blog />
-    <Footor />  
+    <Project />
+    <Contac />
+    <Footor />
     </div>
   )
 }
