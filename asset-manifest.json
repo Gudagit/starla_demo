@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/starla_demo/static/css/main.68de7a89.css",
+    "main.js": "/starla_demo/static/js/main.a0644834.js",
+    "static/media/starla.png": "/starla_demo/static/media/starla.80db3c814838ec380ac2.png",
+    "index.html": "/starla_demo/index.html",
+    "main.68de7a89.css.map": "/starla_demo/static/css/main.68de7a89.css.map",
+    "main.a0644834.js.map": "/starla_demo/static/js/main.a0644834.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68de7a89.css",
+    "static/js/main.a0644834.js"
+  ]
+}
