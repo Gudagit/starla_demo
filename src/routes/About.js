@@ -90,7 +90,6 @@ const experience = [
     bullets: [
       'Client & Project Tracker: full-stack app (React, Vite, Node.js, Express, PostgreSQL, Prisma) with a REST API, server-side validation, meaningful HTTP errors and a responsive interface. Deployed on Vercel.',
       'KitchenCAD: Windows desktop app in C# (WinForms) of about 15,000 lines that generates parts, shop drawings, cut lists and CNC programs from a single parametric model, with 3D view, a custom path-tracing renderer and DXF / PDF export.',
-      'Crypto Predictor: research project in Python (FastAPI, pandas, scikit-learn) that computes daily probabilities from historical data, validated with walk-forward testing and a prediction audit log, with a React dashboard and Pytest tests.',
       'Digital QR Menu: mobile-first restaurant menu in plain HTML, CSS and JavaScript with live search across 103 dishes, a cart and favorites saved in localStorage, optimized WebP images, a responsive layout from 280 px to 2560 px, and accessibility support. Live on GitHub Pages.',
       'This portfolio: React, React Router, EmailJS contact form, responsive design, deployed on Vercel.',
     ],
@@ -106,12 +105,6 @@ const experience = [
     role: 'Shop Drawing Maker (Drafter)',
     org: 'Siri Custom Carpentry',
     description: 'Produced precise technical drawings from architectural plans and solved construction problems for custom cabinetry.',
-  },
-  {
-    period: '2020 — Present',
-    role: 'Server, Hospitality',
-    org: "Norman's Tavern, Soho Beach House",
-    description: 'High-volume, customer-facing teamwork and communication.',
   },
 ]
 
