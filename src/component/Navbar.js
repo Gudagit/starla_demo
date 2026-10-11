@@ -39,10 +39,10 @@ function Navbar() {
                 <Link to="/about" onClick={closeMenu}>ABOUT ME</Link>
             </li>
             <li>
-                <Link to="/galeri" onClick={closeMenu}>GALLERY</Link>
+                <Link to="/project" onClick={closeMenu}>PROJECTS</Link>
             </li>
             <li>
-                <Link to="/project" onClick={closeMenu}>PROJECT</Link>
+                <Link to="/galeri" onClick={closeMenu}>DESIGN GALLERY</Link>
             </li>
             <li>
                 <Link to="/contac" onClick={closeMenu}>CONTACT</Link>

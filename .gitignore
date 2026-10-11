@@ -24,3 +24,6 @@ yarn-error.log*
 
 # local AI tooling config
 .claude/
+
+# private notes (build notes, interview prep) - never push
+notes/

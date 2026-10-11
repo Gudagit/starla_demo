@@ -16,8 +16,8 @@ function Home() {
     <Navbar />
     <SlikezaHome />
     <About />
+    <Project embedded />
     <Galeri />
-    <Project />
     <Contac />
     <Footor />
     </div>

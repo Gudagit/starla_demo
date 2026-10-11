@@ -58,7 +58,7 @@ const WSPGallery = ({galleryImages}) => {
                     key={index}
                     onClick={ () => handleOpenModal(index) }
                     >
-                        <img src={slide.img} alt ='' />
+                        <img src={slide.img} alt={`Logo design ${index + 1}`} loading="lazy" />
                     </div>
                 )
             })

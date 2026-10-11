@@ -32,7 +32,7 @@
     position: relative;
     z-index: 1;
     width: 100%;
-    max-width: 520px;
+    max-width: 600px;
     margin-left: clamp(0px, 6vw, 110px);
     padding: 182px 1.5rem 80px;
     display: flex;
@@ -43,12 +43,19 @@
 }
 
 .content h1 {
+    font-size: clamp(2rem, 6vw, 2.75rem);
     font-weight: 300;
     margin-bottom: 0.5rem;
 }
 
+.content h1.hero-design {
+    font-size: clamp(2.4rem, 8vw, 3.6rem);
+    letter-spacing: 0.12em;
+    margin-bottom: -0.4rem;
+}
+
 .starla {
-    width: min(320px, 60vw);
+    width: min(460px, 82vw);
     height: auto;
     margin: -1.5rem 0;
 }
@@ -68,6 +75,7 @@
 .hero-buttons {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
 }

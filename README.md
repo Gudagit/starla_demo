@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# designstarla — Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Personal portfolio of **Ivana Gudovic (designstarla)** — junior software developer with over a decade of freelance logo design experience.
 
-## Available Scripts
+Live site: https://starla-demo.vercel.app
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Single-page style home that combines Hero, About Me, Gallery, Projects and Contact sections, plus a dedicated page for each section
+- Responsive layout with a mobile burger menu
+- Logo gallery with a full-screen lightbox (previous / next / close)
+- About Me page: skills, experience timeline, education, languages
+- Contact form that sends email directly from the browser via EmailJS (with sending / success / error feedback)
+- Deployed to GitHub Pages with client-side routing support (SPA redirect via `404.html`)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tech stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React 18 (Create React App)
+- React Router v6
+- EmailJS (`@emailjs/browser`)
+- react-icons, Font Awesome
+- Plain CSS, per-component stylesheets
 
-### `npm test`
+## Getting started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+npm install
+npm start        # dev server at http://localhost:3000
+npm run build    # production build in /build
+npm run deploy   # build with /starla_demo as base path and publish to gh-pages
+```
 
-### `npm run build`
+## Project structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+public/          static files, index.html, 404.html (SPA redirect for GitHub Pages), images in slike/
+src/
+  component/     reusable pieces (Navbar, Footer, Hero, Gallery, Contact form)
+  routes/        pages (Home, About, Galeri, Project, Contac)
+  App.js         route table
+  index.js       entry point, BrowserRouter with basename for GitHub Pages
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Deployment notes
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The site is hosted under a sub-path (`/starla_demo`), so `PUBLIC_URL` is set in the `predeploy` script and passed to `BrowserRouter` as `basename`. GitHub Pages has no server-side routing, so `404.html` redirects unknown paths back to `index.html`, where a small script in `index.html` restores the original URL.
 
-### `npm run eject`
+## Roadmap
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Add real projects to the Projects page
+- Replace the 99designs-hosted gallery images with self-hosted, optimized copies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contact
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+designstarla@gmail.com · [GitHub](https://github.com/Gudagit) · [LinkedIn](https://www.linkedin.com/in/ivana-gudovic-bb6171107) · [99designs](https://99designs.com/profiles/2993835)

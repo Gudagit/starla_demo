@@ -17,10 +17,10 @@ function Footor() {
         
             <div className='icon-futer'>
             <img className="logofoot" src="./slike/logo2.png"  alt="logo" />
-                <a href='https://github.com/Gudagit' ><BsGithub size={25} style={{color: "#1F1C1C"}} /></a>
-                <a href='https://99designs.com/profiles/2993835'><NinetyNineBadge size={25} /></a>
-                <a href='https://www.instagram.com/designstarla/?hl=en'  ><RiInstagramFill size={25} style={{color: "#1F1C1C"}} /></a>
-                <a href='https://www.linkedin.com/in/ivana-gudovic-bb6171107'><BsLinkedin size={25} style={{color: "#1F1C1C"}} /></a>
+                <a href='https://github.com/Gudagit' target="_blank" rel="noreferrer" aria-label="GitHub"><BsGithub size={25} style={{color: "#1F1C1C"}} /></a>
+                <a href='https://99designs.com/profiles/2993835' target="_blank" rel="noreferrer" aria-label="99designs"><NinetyNineBadge size={25} /></a>
+                <a href='https://www.instagram.com/designstarla/?hl=en' target="_blank" rel="noreferrer" aria-label="Instagram"><RiInstagramFill size={25} style={{color: "#1F1C1C"}} /></a>
+                <a href='https://www.linkedin.com/in/ivana-gudovic-bb6171107' target="_blank" rel="noreferrer" aria-label="LinkedIn"><BsLinkedin size={25} style={{color: "#1F1C1C"}} /></a>
 
             </div>
             <div className='adress'>
